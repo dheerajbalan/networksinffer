@@ -11,14 +11,14 @@ Features
 
 Prerequisites
 
-    Python 3
-    Scapy library
+Python 3
+Scapy library
 
 Installation
 
-    Clone the repository:
+Clone the repository:
 
-    bash
+bash
 
 	git clone <repository_url>
 	cd <repository_directory>
@@ -31,11 +31,11 @@ bash
 
 Usage
 
-    Run the sniffer tool with root privileges:
+Run the sniffer tool with root privileges:
 
-    bash
+bash
 
-sudo python3 http_sniffer.py -i <interface>
+	sudo python3 http_sniffer.py -i <interface>
 
 Replace <interface> with your network interface name (e.g., eth0, wlan0).
 
@@ -51,8 +51,8 @@ bash
 
 Output
 
-    The captured data will be saved to captured_data.txt in the current working directory.
-    The tool will also print the captured data to the console.
+The captured data will be saved to captured_data.txt in the current working directory.
+The tool will also print the captured data to the console.
 
 Example Output
 
@@ -76,15 +76,15 @@ ARP Packet: ARP who-has 192.168.1.1 says 192.168.1.100
 
 Notes
 
-    Ensure you have the necessary permissions to run this script and capture network packets.
-    This tool is intended for educational and ethical purposes only. Unauthorized sniffing and data capture is illegal and unethical.
+Ensure you have the necessary permissions to run this script and capture network packets.
+This tool is intended for educational and ethical purposes only. Unauthorized sniffing and data capture is illegal and unethical.
 
 Troubleshooting
 
-    Permission Denied:
-    Make sure to run the script with sudo to ensure it has the necessary permissions to capture network packets.
-    No Data Captured:
-    Verify that you have specified the correct network interface.
+Permission Denied:
+Make sure to run the script with sudo to ensure it has the necessary permissions to capture network packets.
+No Data Captured:
+Verify that you have specified the correct network interface.
 
 License
 
