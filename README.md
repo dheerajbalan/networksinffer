@@ -4,10 +4,10 @@ HTTP Sniffer Tool
 This tool captures and logs HTTP requests and ARP packets on a specified network interface. It extracts and logs details such as HTTP methods, source and destination IP addresses, requested URLs, and any credentials found in POST requests.
 Features
 
-    Captures HTTP requests and ARP packets.
-    Logs HTTP method, source IP, destination IP, and requested URL.
-    Extracts and logs POST data, including usernames and passwords if present.
-    Saves captured data to a file captured_data.txt in the current working directory.
+Captures HTTP requests and ARP packets.
+Logs HTTP method, source IP, destination IP, and requested URL.
+Extracts and logs POST data, including usernames and passwords if present.
+Saves captured data to a file captured_data.txt in the current working directory.
 
 Prerequisites
 
@@ -60,19 +60,19 @@ Console:
 
 csharp
 
-HTTP GET Request from 192.168.1.100 to 93.184.216.34: http://example.com
-POST Request from 192.168.1.100 to 93.184.216.34 with payload: username=test&password=1234
-Login attempt: username='test', password='1234' from 192.168.1.100 to 93.184.216.34
-ARP Packet: ARP who-has 192.168.1.1 says 192.168.1.100
+	HTTP GET Request from 192.168.1.100 to 93.184.216.34: http://example.com
+	POST Request from 192.168.1.100 to 93.184.216.34 with payload: username=test&password=1234
+	Login attempt: username='test', password='1234' from 192.168.1.100 to 93.184.216.34
+	ARP Packet: ARP who-has 192.168.1.1 says 192.168.1.100
 
 Captured Data File (captured_data.txt):
 
 csharp
 
-HTTP GET Request from 192.168.1.100 to 93.184.216.34: http://example.com
-POST Request from 192.168.1.100 to 93.184.216.34 with payload: username=test&password=1234
-Login attempt: username='test', password='1234' from 192.168.1.100 to 93.184.216.34
-ARP Packet: ARP who-has 192.168.1.1 says 192.168.1.100
+	HTTP GET Request from 192.168.1.100 to 93.184.216.34: http://example.com
+	POST Request from 192.168.1.100 to 93.184.216.34 with payload: username=test&password=1234
+	Login attempt: username='test', password='1234' from 192.168.1.100 to 93.184.216.34
+	ARP Packet: ARP who-has 192.168.1.1 says 192.168.1.100
 
 Notes
 
